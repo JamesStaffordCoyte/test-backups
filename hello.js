@@ -1,6 +1,6 @@
 let name = "James";
 console.log(`Hello ${name}`);
-console.log('Goodbye');
+console.log(`Goodbye ${name}`);
 let myArgs = process.argv.slice(2);
 console.log(myArgs.join(' '));
 switch (myArgs[0]) {
