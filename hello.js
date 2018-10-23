@@ -1,4 +1,4 @@
-let name = "James";
+let name = "process.argv[3]";
 console.log(`Hello ${name}`);
 console.log(`Goodbye ${name}`);
 let myArgs = process.argv.slice(2);
